@@ -78,7 +78,7 @@ body {
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   color: #777777;
-  background-color: #edf5e1;
+  background-color: #fff;
 }
 
 a {
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 	Header Styles 
 --------------------------------------------------------*/
 .top-header {
-  background: #05386b;
+  background: #333;
   color: white;
   padding: 10px 0;
 }
@@ -167,17 +167,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 9999;
   padding: 10px 0;
-  background: #edf5e1;
-  -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
-  -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
-  box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 10px rgb(0 0 0 / 8%) ;
+  -moz-box-shadow: 0 4px 10px rgb(0 0 0 / 8%) ;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 8%) ;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   line-height: 70px;
-  opacity: 0.9;
 }
 
 .main-header .logo {
@@ -210,8 +209,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
 }
 .main-header .menu ul li a.current {
-  background: #05386b;
-  color: white;
+  background: #673de6;
+    color: white;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 100px;
 }
 
 .main-header-shrink {
@@ -251,8 +253,8 @@ width: 50px !important;
 }
 .responsive-menu .toggle-menu {
   font-size: 25px;
-    color: #05386b;
-    border: 2px solid #05386b;
+    color: #2f1c6a;
+    border: 2px solid #2f1c6a;
     padding: 5px 10px;
     border-radius: 4px;
 }
@@ -266,7 +268,6 @@ width: 50px !important;
 .responsive-menu .menu ul li {
   display: block;
   text-align: left;
-  border-bottom: 1px solid #05386b;
   margin: 0;
 }
 .responsive-menu .menu ul li:last-child {
@@ -279,6 +280,7 @@ width: 50px !important;
   -webkit-border-radius: 0;
   border-radius: 0;
   font-weight: 600;
+  height: 60px;
 }
 .responsive-menu .menu ul li a.current {
   background-color: #444444;
@@ -298,12 +300,13 @@ width: 50px !important;
   margin-bottom: 20px;
   font-weight: 700 !important;
   line-height: 1;
+  color: #2f1c6a;
 }
 .title-section span {
   display: block;
   width: 70px;
   height: 4px;
-  background: #05386b;
+  background: #2f1c6a;
   margin: 0 auto;
 }
 
@@ -314,7 +317,7 @@ width: 50px !important;
 }
 
 .mainBtn {
-  background-color: #05386b;
+  background-color: #2f1c6a;
   color: white;
   display: inline-block;
   text-transform: uppercase;
@@ -351,7 +354,7 @@ width: 50px !important;
   clear: both;
 }
 #services .service-item .service-header i {
-  color: #05386b;
+  color: #2f1c6a;
   font-size: 24px;
   float: left;
   margin-right: 25px;
@@ -439,7 +442,7 @@ width: 50px !important;
   -moz-box-shadow: none;
   box-shadow: none;
   line-height: 30px;
-  background: #05386b;
+  background: #2f1c6a;
   text-transform: uppercase;
 }
 #about .our-team {
@@ -447,6 +450,8 @@ width: 50px !important;
 }
 #about .our-team .team-member {
   overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 16px rgb(0 0 0 / 22%);
 }
 #about .our-team .team-member .member-img {
   width: 100%;
@@ -462,12 +467,12 @@ width: 50px !important;
 }
 .enrollBtn{
   display: block;
-    padding: 10px 15px 7px 15px;
+    padding: 16px 20px 12px 20px;
     margin: auto;
-    width: 50%;
-    background-color: #05386b;
+    width: 60%;
+    background-color: #fc5185;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 3px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -524,7 +529,7 @@ width: 50px !important;
 #about .our-team .team-member .inner-content h5 {
   font-size: 18px;
   font-weight: 600;
-  color: #05386b;
+  color: #2f1c6a;
   margin-bottom: 10px;
 }
 #about .our-team .team-member .inner-content span {
@@ -574,7 +579,7 @@ width: 50px !important;
   font-size: 18px;
 }
 #contact .contact-info span i {
-  color: #05386b;
+  color: #2f1c6a;
   font-size: 20px;
   margin-right: 12px;
 }
@@ -632,7 +637,7 @@ width: 50px !important;
 --------------------------------------------------------*/
 .site-footer {
   margin-top: 100px;
-  background-color: #05386b;
+  background-color: #333;
   color: white;
   padding: 25px 0;
 }
