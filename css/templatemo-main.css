@@ -90,7 +90,7 @@ a:hover, a:active, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: cursive;
   color: #444444;
 }
 
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-#services, #portfolio, #about, #contact {
+#services, #portfolio,#membership, #about, #contact {
   padding-top: 120px;
 }
 
@@ -195,8 +195,8 @@ h1, h2, h3, h4, h5, h6 {
 .main-header .menu ul li a {
   text-transform: uppercase;
   color: #777777;
-  font-size: 15px;
-  padding: 8px 15px;
+  font-size: 18px;
+  padding: 5px 15px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -231,7 +231,7 @@ width: 50px !important;
 }
 .responsive-menu {
   position: relative;
-  top: -55px;
+  top: -86px;
 }
 .responsive-menu .toggle-menu {
   font-size: 25px;
@@ -245,7 +245,7 @@ width: 50px !important;
   position: absolute;
   top: 52px;
   width: 100%;
-  background-color: #171716;
+  background-color: #000;
 }
 .responsive-menu .menu ul li {
   display: block;
@@ -258,10 +258,11 @@ width: 50px !important;
 }
 .responsive-menu .menu ul li a {
   color: white;
-  padding: 15px 20px;
+  padding: 10px 20px;
   display: block;
   -webkit-border-radius: 0;
   border-radius: 0;
+  font-weight: 600;
 }
 .responsive-menu .menu ul li a.current {
   background-color: #444444;
@@ -280,6 +281,7 @@ width: 50px !important;
   display: block;
   margin-bottom: 20px;
   font-weight: 700 !important;
+  line-height: 1;
 }
 .title-section span {
   display: block;
@@ -442,6 +444,19 @@ width: 50px !important;
   width: 200px;
   margin-bottom: 20px;
 }
+.enrollBtn{
+  display: block;
+    padding: 8px 15px;
+    margin: auto;
+    width: 50%;
+    background-color: #05386b;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 #about .our-team .team-member .member-img .overlay {
   top: 0;
   left: 0;
@@ -484,10 +499,11 @@ width: 50px !important;
   visibility: visible;
 }
 #about .our-team .team-member .inner-content {
-  background: whitesmoke;
-  border: 1px solid #d6d6d6;
+  background: white;
+  border: 1px solid #ECECEC;
   border-top: 0;
   padding: 20px;
+  border-radius: 3px;
 }
 #about .our-team .team-member .inner-content h5 {
   font-size: 18px;
@@ -689,11 +705,17 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
   .responsive-menu .menu {
     top: 42px;
   }
-  .responsive-image{
+  .main-header .responsive-image{
     width: 50%;
     position: relative;
+    top: -22px;
+  }
+  .main-header-shrink .responsive-image{
     top: -10px;
   }
+  .main-header-shrink .responsive-menu{
+    top: -54px;
+  } 
   .main-header .logo .imglog{
     width: 50px;
   }
@@ -703,6 +725,9 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
 
   .chatUs{
     width: 50%;
+  }
+  .title-section h2{
+    font-size: 30px;
   }
 }
 /********************************
